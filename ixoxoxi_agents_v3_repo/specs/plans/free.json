@@ -1,0 +1,26 @@
+{
+  "allowed_model_classes": [
+    "cheap"
+  ],
+  "budget": {
+    "admission_credit_reserve": 0.5,
+    "credits_per_day": 50.0
+  },
+  "default_policy_profile_id": "free",
+  "limits": {
+    "max_bytes_in_per_day": 10000000,
+    "max_jobs_per_day": 50
+  },
+  "plan_id": "free",
+  "pricing": {
+    "credits_per_model_call_by_class": {
+      "cheap": 0.01,
+      "reasoning": 0.2,
+      "transform": 0.05
+    },
+    "credits_per_tool_call_by_name": {
+      "hash_sha256": 0.001,
+      "json_validate": 0.001
+    }
+  }
+}

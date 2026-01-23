@@ -1,0 +1,1 @@
+{"graph_id":"xi-default","graph_version":"30ab6ebb28daac2ffb4478303e6a490d2f62cee19d6182dcfd9d3a8bcee98f7a","metadata":{"compatibility":{"context_contract":"v1-frozen"},"description":"Default linear xi pipeline: provenance -> audit -> curate"},"sequence":["xiProvenanceAgent","xiAuditAgent","xiCurateAgent"]}

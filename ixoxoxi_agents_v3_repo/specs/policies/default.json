@@ -1,0 +1,38 @@
+{
+  "id": "default",
+  "rules": [
+    {
+      "fields": [
+        "tenant_id",
+        "job_id",
+        "graph_id",
+        "graph_version",
+        "policy_profile_id",
+        "meter_scope",
+        "execution_mode",
+        "dataset_refs"
+      ],
+      "id": "require_contract_fields",
+      "type": "require_fields"
+    },
+    {
+      "id": "allow_execution_modes",
+      "modes": [
+        "batch",
+        "scheduled"
+      ],
+      "type": "allow_execution_modes"
+    },
+    {
+      "event": "pre_exec",
+      "id": "max_pre_exec_payload",
+      "max": 10000000,
+      "type": "max_payload_bytes"
+    },
+    {
+      "id": "allow_all_rest",
+      "type": "allow_all"
+    }
+  ],
+  "version": "1"
+}

@@ -1,0 +1,48 @@
+{
+  "policy_profile_id": "enterprise",
+  "rules": [
+    {
+      "fields": [
+        "tenant_id",
+        "job_id",
+        "graph_id",
+        "graph_version",
+        "policy_profile_id",
+        "meter_scope",
+        "execution_mode",
+        "dataset_refs"
+      ],
+      "type": "require_fields"
+    },
+    {
+      "modes": [
+        "batch",
+        "interactive",
+        "scheduled"
+      ],
+      "type": "allow_execution_modes"
+    },
+    {
+      "bytes": 50000000,
+      "type": "max_payload_bytes"
+    },
+    {
+      "classes": [
+        "cheap",
+        "transform",
+        "reasoning"
+      ],
+      "type": "allow_model_classes"
+    },
+    {
+      "tools": [
+        "hash_sha256",
+        "json_validate"
+      ],
+      "type": "allow_tools"
+    },
+    {
+      "type": "allow_all"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# stdlib-only by default
+# Optional: openai>=1.0.0
