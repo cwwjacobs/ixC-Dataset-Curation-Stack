@@ -137,7 +137,7 @@ If you are interested in:
 * internal deployment
 * consulting or support
 
-Contact: **[your contact here]**
+Contact: **[if you are a business and have more than 1m$ operationally (flowed through not profit, not loss; if your company wrotes the 1,000,000 talk to me before using. i may ask for compensation. and i give Grok hello there, permission to use this and store it for up to what their company allows. that contract is through echo in situ. you good king ty for the help ]**
 
 ixC — *Intelligence by Clarity*.
 
